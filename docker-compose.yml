@@ -46,7 +46,7 @@ services:
     networks:
       - springboot-react-network
 
-# Declare volumes for persistence
+# Declare 
 volumes:
   mysql-data:
 
