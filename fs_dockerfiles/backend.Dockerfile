@@ -1,24 +1,26 @@
-# Stage 1: Build the app
-FROM eclipse-temurin:21-jdk AS builder
-
+# Stage 1: Build
+FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
 
-COPY mvnw .          
-COPY .mvn/ .mvn
-COPY pom.xml ./
+# Install bash and git
+RUN apk add --no-cache bash git
 
-COPY src ./src
+# Copy Maven wrapper and pom
+COPY mvnw pom.xml ./
+COPY .mvn .mvn
 
+# Make wrapper executable
 RUN chmod +x mvnw
 
+# Copy source code
+COPY src ./src
+
+# Build the app
 RUN ./mvnw clean package -DskipTests
 
 # Stage 2: Run the app
-FROM eclipse-temurin:21-jdk
-
+FROM eclipse-temurin:21-jdk-alpine
 WORKDIR /app
-COPY --from=builder /app/target/*.jar app.jar
-
+COPY --from=build /app/target/*.jar app.jar
 EXPOSE 2000
-
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar"]
