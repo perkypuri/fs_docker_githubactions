@@ -1,14 +1,17 @@
-# Stage 1: Build
+# Stage 1: Buildad
 FROM node:20-alpine AS build
 WORKDIR /app
 
-# Copy package files from context
+# Install build tools (python, make, g++)
+RUN apk add --no-cache python3 make g++
+
+# Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+# Install dependencies (ignore peer conflicts)
+RUN npm install --legacy-peer-deps
 
-# Make vite binary executable
+# Make vite executable
 RUN chmod +x node_modules/.bin/vite
 
 # Copy all source files
