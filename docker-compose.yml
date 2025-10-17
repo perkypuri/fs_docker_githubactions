@@ -1,18 +1,20 @@
+version: "3.9"
+
 services:
   mysqldb:
     container_name: mysql-db
     image: mysql:8
     environment:
-      MYSQL_ROOT_PASSWORD: docker
-      MYSQL_DATABASE: dbdockeraws        # your DB name
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dbdockeraws
     ports:
-      - "3306:3306"
+      - "3307:3306"   # map host 3307 to container 3306 to avoid conflicts
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
       - springboot-react-network
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pdocker"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -25,7 +27,7 @@ services:
       dockerfile: ../fs_dockerfiles/backend.Dockerfile
     image: fs-dockeraws-backend:latest
     ports:
-      - "2001:2000"
+      - "2001:2000"  # maps container port 2000 to host 2001
     depends_on:
       mysqldb:
         condition: service_healthy
@@ -46,11 +48,11 @@ services:
     networks:
       - springboot-react-network
 
-# Declare 
+# Persistent volume for MySQL
 volumes:
   mysql-data:
 
-# Define custom bridge network
+# Custom bridge network
 networks:
   springboot-react-network:
     driver: bridge
