@@ -1,0 +1,62 @@
+2025-10-17 12:32:49,510 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-10-17 12:35:35,743 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:fs_dockeraws_backend:0.0.1-SNAPSHOT @ C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\pom.xml.
+2025-10-17 12:35:38,203 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/main/java
+2025-10-17 12:35:38,207 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:35:38,228 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:35:38,251 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/test/java
+2025-10-17 12:35:38,253 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/test/resources
+2025-10-17 12:35:39,198 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-10-17 12:35:39,205 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-10-17 12:35:40,369 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:fs_dockeraws_backend:0.0.1-SNAPSHOT @ C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\pom.xml.
+2025-10-17 12:35:42,218 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/main/java
+2025-10-17 12:35:42,220 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:35:42,222 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:35:42,223 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/test/java
+2025-10-17 12:35:42,224 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/test/resources
+2025-10-17 12:35:42,910 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-10-17 12:36:26,405 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:fs_dockeraws_backend:0.0.1-SNAPSHOT @ C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\pom.xml.
+2025-10-17 12:36:28,526 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/main/java
+2025-10-17 12:36:28,527 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:36:28,535 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:36:28,542 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/test/java
+2025-10-17 12:36:28,543 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/test/resources
+2025-10-17 12:36:29,468 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-10-17 12:36:29,473 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-10-17 12:36:30,473 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:fs_dockeraws_backend:0.0.1-SNAPSHOT @ C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\pom.xml.
+2025-10-17 12:36:31,807 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/main/java
+2025-10-17 12:36:31,808 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:36:31,809 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/main/resources
+2025-10-17 12:36:31,810 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fs_dockeraws_backend/src/test/java
+2025-10-17 12:36:31,812 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fs_dockeraws_backend/src/test/resources
+2025-10-17 12:36:32,506 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-10-17 12:36:33,470 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:36:33,506 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:36:33,516 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:38:49,219 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:38:49,246 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:38:49,252 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:39:24,646 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:39:24,656 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:39:24,665 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:39:50,787 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:39:50,796 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:39:50,803 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:40:18,590 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:40:18,603 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:40:18,608 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:40:32,578 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:40:32,586 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:40:32,591 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:41:04,181 [Worker-17: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:41:04,193 [Worker-17: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:41:04,199 [Worker-17: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 12:43:00,858 [Worker-2: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 12:43:00,872 [Worker-2: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 12:43:00,877 [Worker-2: Launching fs_dockeraws_backend - FsDockerawsBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 19:11:11,169 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 19:11:11,200 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 19:11:11,208 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources
+2025-10-17 19:11:39,044 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:fs_dockeraws_backend:0.0.1-SNAPSHOT @ C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\pom.xml.
+2025-10-17 19:11:39,730 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-17 19:11:39,766 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-17 19:11:39,778 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\LabExamPrep\FullStackDockerAws\fs_dockeraws_backend\src\test\resources

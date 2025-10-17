@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;fs_dockeraws_backend&apos;" deleteContents="true" description="Delete resource &apos;fs_dockeraws_backend&apos;" element1="/fs_dockeraws_backend" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1760684749814"/>
+</session>
